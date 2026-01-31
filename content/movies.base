@@ -2,14 +2,9 @@ summaries:
   missing: values.filter(value.isType("null")).length
   watched: values.filter(value == "finished").length
 filters:
-  or:
+  and:
     - file.hasTag("movies")
-    - and:
-        - file.inFolder("movies")
-        - not:
-            - file.hasTag("evergreen", "meta")
-        - not:
-            - file.inFolder("movies/posters")
+    - file.hasTag("review")
 properties:
   file.tags:
     displayName: tags
@@ -51,6 +46,7 @@ views:
         direction: ASC
     cardSize: 320
     image: note.posters
+    imageAspectRatio: 1.45
   - type: table
     name: to watch
     filters:
