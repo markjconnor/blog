@@ -1,0 +1,14 @@
+formulas:
+  Untitled: date()
+views:
+  - type: cards
+    name: Movie List
+    filters:
+      and:
+        - file.tags.contains("review")
+    order:
+      - director
+      - formula.Untitled
+    image: note.file
+    cardSize: 270
+    imageAspectRatio: 1.5
