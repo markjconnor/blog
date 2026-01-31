@@ -4,7 +4,9 @@ draft: "false"
 tags:
   - movies
   - review
-file: glengarry_glen_ross.jpg
-watched: 2026-01-28
+posters: posters/glengarry_glen_ross.jpg
+year: "1992"
+director: James Foley
+rating: 3.5/5
 ---
 Glengarry.

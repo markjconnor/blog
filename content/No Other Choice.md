@@ -5,7 +5,9 @@ tags:
   - movies
   - review
 file: no_other_choice.jpg
-director:
-watched: 2026-01-30
+director: Park Chan-wook
+year: "2025"
+rating: 4/5
+posters: posters/no_other_choice.jpg
 ---
 This is my review.
