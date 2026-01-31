@@ -1,0 +1,21 @@
+properties:
+  note.tags:
+    displayName: Topics
+views:
+  - type: cards
+    name: Gallery
+    filters:
+      and:
+        - file.tags.contains("youtube")
+    order:
+      - file.name
+      - author
+      - watched
+      - tags
+      - source
+    image: note.thumbnail
+    cardSize: 340
+    imageFit: contain
+    imageAspectRatio: 0.55
+  - type: table
+    name: Table
