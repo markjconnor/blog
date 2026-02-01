@@ -7,24 +7,23 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [
     Component.Comments({
-      provider: 'giscus',
+      provider: "giscus",
       options: {
         // from data-repo
-        repo: 'markjconnor/blog',
+        repo: "markjconnor/blog",
         // from data-repo-id
-        repoId: 'R_kgDORFj9cw',
+        repoId: "R_kgDORFj9cw",
         // from data-category
-        category: 'Announcements',
+        category: "Announcements",
         // from data-category-id
-        categoryId: 'DIC_kwDORFj9c84C1u0N',
-        // from data-lang
-        lang: 'en'
+        categoryId: "DIC_kwDORFj9c84C1u0N",
       }
     }),
   ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/markjconnor",
+      "Best Game Ever": "https://tagpro.koalabeast.com/"
     },
   }),
 }
