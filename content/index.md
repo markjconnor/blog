@@ -4,8 +4,7 @@ draft: "false"
 tags:
 ---
 
-I am Mark. I hope to use this blog to write more in depth about some of the things I am thinking about, such as [[cinema.base|movies]] , [[technology]], and [[philosophy]]. 
+I am Mark. I made this blog so I could practice writing. I want to talk about [[cinema.base|movies]] and other topics I am interested in. I'm also going to collect my notes from [[college]].
 
-I am currently studying in [[UCL]] doing a master's in [[Software Systems Engineering]]. 
 
 

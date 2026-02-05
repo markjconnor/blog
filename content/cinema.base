@@ -3,8 +3,7 @@ summaries:
   watched: values.filter(value == "finished").length
 filters:
   and:
-    - file.hasTag("movies")
-    - file.hasTag("review")
+    - file.inFolder("movies")
 properties:
   file.tags:
     displayName: tags
@@ -44,9 +43,9 @@ views:
         direction: DESC
       - property: title
         direction: ASC
-    cardSize: 320
+    cardSize: 240
     image: note.posters
-    imageAspectRatio: 1.45
+    imageAspectRatio: 0.6
   - type: table
     name: to watch
     filters:

@@ -5,7 +5,6 @@ published: 2026-01-25
 created: 2026-01-31
 description:
 tags:
-  - clippings
   - movies
   - review
 year: "2026"
